@@ -1,0 +1,60 @@
+---
+title: "Elayna_write-up"
+author: "Elayna Seago"
+date: "5/3/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Portfolio Write Up
+
+During this course I have completed ten portfolios. I will briefly summarize my goals for each one and mention any other items of interest.
+
+### Portfolio 1 - Thesis Analyses, 2 x 2 ANOVA
+
+In my first portfolio I learned to do a 2 x 2 repeated measures ANOVA in r. I used afex and an online tutorial which made the process very straightforward. I also performed follow up contrasts and made a simple graph of the data.
+
+### Portfolio 2 - Tidy Tuesday Bees
+
+In this portfolio I used a data set on bee colonies from Tidy Tuesday. It was remarkably easy to get the data. I used the dataset to determine which 10 states/time periods had the greatest loss in colony numbers over a three month period. I also made a graph showing what stressors affected those states during their worst year. One of the flaws with the graph that I made is that it just stacked all stressors in a state on top of each other. I thought this would look good, but it is confusing because it makes it seem like some states have more than 100% of their hives affected. The graph is still pretty interesting though and shows the breakdown of stressors across times/locations well.
+
+### Portfolio 3 - AE Tidy Tuesday tutorial
+
+In this portfolio, I worked with my classmate Alex to make a short tutorial on importing Tidy Tuesday data to work with. Hopefully this piece will help future R for Data Science students easily access the data from Tidy Tuesday.
+
+### Portfolio 4 - Thesis Analyses, 2 x 2 ANCOVA
+
+This was another straightforward portfolio piece. I used aov_ez to run an ANCOVA. I also replicated running a 2 x 2 ANOVA with aov_ez and spent some time looking over the specifications I could make with the aov commands
+
+### Portfolio 5 - Thesis Analyses, Power Analysis
+
+For this portfolio piece I used superpower to perform a power analysis that would inform my sample size for my 2 x 2 repeated measures anova. I plotted power and also did a simulation using a set seed.
+
+### Portfolio 6 - Thesis Graphs
+
+For this portfolio piece, I recreated all the graphs I used in my thesis and on my poster at a conference I recently attended. The graphs were dotplots, bar graphs, and scatter plots. What made this piece interesting is that I spent a lot more time making the graphs aesthetically pleasing and easy to follow. I also had a very specific version of what I wanted the graphs to look like so I had to make more adjustments than usual.
+
+### Portfolio 7 - Maps and Bees
+
+My goal in this lab was to make a map graph. I made one with the USArrests map that were given as part of an example on making map graphs and then I did it with Tidy Tuesday bee data (which I also used before). Finally I also made a map with old post offices. For these maps I used the maps associated with ggplot.
+
+### Portfolio 8 - Organization and tidying data
+
+This portfolio should really have been done at the beginning. I have been having issues getting my data organized the ways I wanted so I spent some time learning how do to a few data cleaning things/prep my data for analyses. I also double checked some analyses to make sure I got things organized correctly.
+
+### Portfolio 9 - Word Clouds/Netflix Titles
+
+As I got close to the end of my portfolios, I wanted to try something different, so I tried making word clouds using words included in Netflix titles. I got the data from Tidy Tuesday, filtered it for US titles, and then made word clouds based on ratings of the show/movie.
+
+### Portfolio 10 - Maps Again
+
+I am really interested in map graphs because I feel like I see them frequently in news articles. I wanted to try another approach of making map graphs, so I used tmap and some other packages to try it out. This came with mixed results. The graphs I made were really cool, but I had a hard time taking what I learned in the tutorial and generalizing it to other data sets. This might be because I started the tutorial about halfway through. I plan to experiment with these packages again in the future and see if I can map additional variables on.
+
+### Wrapping It Up!
+
+For my portfolios I did a mix of very thesis motivated projects and just idle interest projects. Generally, the thesis projects were more straightforward and easy because they just involved a couple of analyses. The idle interest portfolios were usually a little more involved. 
+
+Overall, throughout the process of doing my portfolios, the two things that were most surprising to me were how accessible interesting data sets are on the internet and how many code examples there are on the internet. 
